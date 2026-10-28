@@ -1,0 +1,631 @@
+{
+ "113 Walnut St, Cary, North Carolina 27511, USA": [
+  35.7830951,
+  -78.7793814
+ ],
+ "117 E Park St, Cary, North Carolina 27511, USA": [
+  35.785168,
+  -78.7807025
+ ],
+ "119 E Park St, Cary, North Carolina 27511, USA": [
+  35.7851674,
+  -78.7806555
+ ],
+ "228 Ambassador Loop, Cary, North Carolina 27513, USA": [
+  35.7894826,
+  -78.7789024
+ ],
+ "400 James Jackson Ave, Cary, North Carolina 27513, USA": [
+  35.7971897,
+  -78.8074494
+ ],
+ "801 High House Road, Cary, North Carolina 27513, USA": [
+  35.7853475,
+  -78.8207219
+ ],
+ "1100 Spruce St, Boulder, Colorado 80302, USA": [
+  40.0185404,
+  -105.2814748
+ ],
+ "1100 Walnut, Boulder, Colorado 80302, USA": [
+  40.016553,
+  -105.280755
+ ],
+ "1275 Alpine Ave, Boulder, Colorado 80304, USA": [
+  40.025998,
+  -105.2807798
+ ],
+ "1360 Gillaspie Dr, Boulder, Colorado 80305, USA": [
+  39.9746767,
+  -105.2486002
+ ],
+ "1400 Walnut St, Boulder, Colorado 80302, USA": [
+  40.0173163,
+  -105.2766353
+ ],
+ "1500 Pearl St, Boulder, Colorado 80302, USA": [
+  40.0188097,
+  -105.2748764
+ ],
+ "1745 14th street, Boulder, Colorado 80302, USA": [
+  40.0149762,
+  -105.2763087
+ ],
+ "1770 13th St, Boulder, Colorado 80302, USA": [
+  40.0154279,
+  -105.2772223
+ ],
+ "2052 Junction Pl, Boulder, Colorado 80301, USA": [
+  40.0280835,
+  -105.2509914
+ ],
+ "2280 Junction Pl, Boulder, Colorado 80301, USA": [
+  40.0242054,
+  -105.2518078
+ ],
+ "7315 Red Deer Dr, Boulder, Colorado 80301, USA": [
+  40.0239699,
+  -105.1827271
+ ],
+ "900 Baseline Rd, Boulder, Colorado 80302, USA": [
+  39.9999701,
+  -105.283278
+ ],
+ "900 Walnut St, Boulder, Colorado 80302, USA": [
+  40.0158477,
+  -105.282609
+ ],
+ "***TEST SITE*** Charge Your Car HQ, Leeds, UK": null,
+ "Elland Road Park and Ride, Leeds, UK": [
+  53.7771748,
+  -1.5762932
+ ],
+ "Temple Green Park and Ride, Leeds, UK": null,
+ "Wellington Place, Leeds, UK": [
+  53.7962345,
+  -1.557868
+ ],
+ "Woodhouse Lane Car Park, Leeds, UK": [
+  53.8047225,
+  -1.5467541
+ ],
+ "1505 30th St, Boulder, Colorado 80303, USA": [
+  40.011587,
+  -105.2536332
+ ],
+ "1739 Broadway, Boulder, Colorado 80302, USA": [
+  40.014495,
+  -105.2792069
+ ],
+ "2150 13th St, Boulder, Colorado 80302, USA": [
+  40.0197093,
+  -105.2790802
+ ],
+ "2240 Broadway, Boulder, Colorado 80302, USA": [
+  40.0203683,
+  -105.2807105
+ ],
+ "2520 55th St, Boulder, Colorado 80301, USA": [
+  40.0247901,
+  -105.2249294
+ ],
+ "2667 Broadway, Boulder, Colorado 80304, USA": [
+  40.0253516,
+  -105.2823779
+ ],
+ "3172 Broadway, Boulder, Colorado 80304, USA": [
+  40.0325532,
+  -105.281964
+ ],
+ "3335 Airport Rd, Boulder, Colorado 80301, USA": [
+  40.0373385,
+  -105.2306014
+ ],
+ "5050 Pearl St, Boulder, Colorado 80301, USA": [
+  40.025324,
+  -105.2354773
+ ],
+ "5064 Pearl St, Boulder, Colorado 80301, USA": [
+  40.0245082,
+  -105.2334709
+ ],
+ "5333 Valmont Rd, Boulder, Colorado 80301, USA": [
+  40.0297713,
+  -105.2292324
+ ],
+ "5565 51st St, Boulder, Colorado 80301, USA": [
+  40.0711736,
+  -105.2220206
+ ],
+ "5660 Sioux Dr, Boulder, Colorado 80303, USA": [
+  39.9921555,
+  -105.2199563
+ ],
+ "600 Baseline Rd, Boulder, Colorado 80302, USA": [
+  39.999979,
+  -105.286486
+ ],
+ "Temple Green Park & Ride, Leeds, UK": [
+  53.7771367,
+  -1.4794389
+ ],
+ "A S Rao Nagar, Hyderabad, Telangana, India": [
+  17.4799497,
+  78.5568336
+ ],
+ "Abdullapurmet, Hyderabad, Telangana, India": [
+  17.3630295,
+  78.5768953
+ ],
+ "Addakal, Hyderabad, Telangana, India": null,
+ "Jadcherla, Hyderabad, Telangana, India": [
+  17.5138189,
+  78.2883202
+ ],
+ "Aliabad, Hyderabad, Telangana, India": [
+  17.34563,
+  78.4726799
+ ],
+ "Allapur, Hyderabad, Telangana, India": [
+  17.4565793,
+  78.4095538
+ ],
+ "Allwyn Colony, Hyderabad, Telangana, India": [
+  17.4920354,
+  78.3499531
+ ],
+ "Alwal, Hyderabad, Telangana, India": [
+  17.5022292,
+  78.5088584
+ ],
+ "Amangal, Hyderabad, Telangana, India": null,
+ "Amberpet, Hyderabad, Telangana, India": [
+  17.3861776,
+  78.5114709
+ ],
+ "Andole, Hyderabad, Telangana, India": null,
+ "Jogipet, Hyderabad, Telangana, India": null,
+ "Attapur, Hyderabad, Telangana, India": [
+  17.3672244,
+  78.4307278
+ ],
+ "Autonagar, Hyderabad, Telangana, India": [
+  17.3356141,
+  78.5792031
+ ],
+ "Bachupally, Hyderabad, Telangana, India": [
+  17.536648,
+  78.3644736
+ ],
+ "Balaji Nagar, Hyderabad, Telangana, India": [
+  17.3839683,
+  78.430958
+ ],
+ "Balanagar, Hyderabad, Telangana, India": [
+  17.4768224,
+  78.4219645
+ ],
+ "Balapur, Hyderabad, Telangana, India": [
+  17.307521,
+  78.5053298
+ ],
+ "Bandlaguda, Hyderabad, Telangana, India": [
+  17.3714879,
+  78.5727265
+ ],
+ "Begumpet, Hyderabad, Telangana, India": [
+  17.446195,
+  78.463016
+ ],
+ "Bhongir - Town, Hyderabad, Telangana, India": null,
+ "Bhongir, Hyderabad, Telangana, India": null,
+ "Bhongir _ Rural, Hyderabad, Telangana, India": null,
+ "Bn Reddy Nagar, Hyderabad, Telangana, India": [
+  17.462147,
+  78.5921097
+ ],
+ "Bollarum, Hyderabad, Telangana, India": [
+  17.5216284,
+  78.5162616
+ ],
+ "Bowrampet, Hyderabad, Telangana, India": null,
+ "Jeedimetla, Hyderabad, Telangana, India": [
+  17.519687,
+  78.4468876
+ ],
+ "C And O, Hyderabad, Telangana, India": null,
+ "Mbnr-Rural, Hyderabad, Telangana, India": null,
+ "Champapet, Hyderabad, Telangana, India": [
+  17.3445706,
+  78.5169717
+ ],
+ "Chanchalguda, Hyderabad, Telangana, India": [
+  17.3673732,
+  78.4965799
+ ],
+ "Chanda Nagar, Hyderabad, Telangana, India": [
+  17.4534764,
+  78.3943669
+ ],
+ "Chatrinaka, Hyderabad, Telangana, India": [
+  17.3420099,
+  78.4777649
+ ],
+ "Cherlapally-I, Hyderabad, Telangana, India": [
+  17.4687455,
+  78.6024858
+ ],
+ "Cherlapally-Ii, Hyderabad, Telangana, India": [
+  17.4687455,
+  78.6024858
+ ],
+ "Chityal, Hyderabad, Telangana, India": null,
+ "Nalgonda Rural, Hyderabad, Telangana, India": null,
+ "Choutuppal, Hyderabad, Telangana, India": null,
+ "Chudi Bazar, Hyderabad, Telangana, India": [
+  17.3738134,
+  78.4647791
+ ],
+ "Clock Tower, Hyderabad, Telangana, India": [
+  17.4409014,
+  78.4985547
+ ],
+ "D P Pally, Hyderabad, Telangana, India": null,
+ "Shapur Nagar, Hyderabad, Telangana, India": [
+  17.5173373,
+  78.4450956
+ ],
+ "Dattatreya Colony, Hyderabad, Telangana, India": [
+  17.5110985,
+  78.4052903
+ ],
+ "Erragadda, Hyderabad, Telangana, India": [
+  17.4487999,
+  78.4356074
+ ],
+ "Falaknuma, Hyderabad, Telangana, India": [
+  17.3326604,
+  78.4751984
+ ],
+ "Ferozeguda, Hyderabad, Telangana, India": null,
+ "Film Nagar, Hyderabad, Telangana, India": [
+  17.4140574,
+  78.4105031
+ ],
+ "Gachibowli, Hyderabad, Telangana, India": [
+  17.4436222,
+  78.3519638
+ ],
+ "Gaganpahad, Hyderabad, Telangana, India": [
+  17.3549315,
+  78.4785127
+ ],
+ "Ghatkesar, Hyderabad, Telangana, India": null,
+ "Golconda, Hyderabad, Telangana, India": [
+  17.3873294,
+  78.4057336
+ ],
+ "Golnaka, Hyderabad, Telangana, India": [
+  17.3901064,
+  78.5083605
+ ],
+ "Greenlands, Hyderabad, Telangana, India": [
+  17.4303015,
+  78.4560806
+ ],
+ "Gunfoundry, Hyderabad, Telangana, India": [
+  17.3936441,
+  78.4756654
+ ],
+ "Habsiguda, Hyderabad, Telangana, India": [
+  17.4154761,
+  78.5426918
+ ],
+ "Hafeezpet, Hyderabad, Telangana, India": [
+  17.4834409,
+  78.3611316
+ ],
+ "Hayath Nagar, Hyderabad, Telangana, India": [
+  17.3296616,
+  78.5792467
+ ],
+ "Hussaini Alam, Hyderabad, Telangana, India": [
+  17.361886,
+  78.4667506
+ ],
+ "Huzurnagar Town, Hyderabad, Telangana, India": null,
+ "Huzurnagar, Hyderabad, Telangana, India": null,
+ "Hydernagar, Hyderabad, Telangana, India": [
+  17.4984629,
+  78.3819018
+ ],
+ "I.D.P.L., Hyderabad, Telangana, India": [
+  17.360589,
+  78.4740613
+ ],
+ "Ibrahimbagh, Hyderabad, Telangana, India": [
+  17.3767677,
+  78.381442
+ ],
+ "Injapur, Hyderabad, Telangana, India": [
+  17.3055148,
+  78.5934992
+ ],
+ "Isnapur, Hyderabad, Telangana, India": null,
+ "Itikyal(Erravally), Hyderabad, Telangana, India": null,
+ "Alampur X Road, Hyderabad, Telangana, India": null,
+ "Jadcherla Rural, Hyderabad, Telangana, India": null,
+ "Jagadgiri Gutta, Hyderabad, Telangana, India": null,
+ "Qutbullapur, Hyderabad, Telangana, India": [
+  17.4993272,
+  78.4532137
+ ],
+ "Jubilee Hills, Hyderabad, Telangana, India": [
+  17.4308362,
+  78.4102882
+ ],
+ "Kandi, Hyderabad, Telangana, India": [
+  17.5168428,
+  78.3504968
+ ],
+ "Kandukur, Hyderabad, Telangana, India": null,
+ "Mamidipally, Hyderabad, Telangana, India": null,
+ "Karkhana, Hyderabad, Telangana, India": [
+  17.4732138,
+  78.5115017
+ ],
+ "Katedan, Hyderabad, Telangana, India": [
+  17.3026835,
+  78.4398207
+ ],
+ "Kattangur, Hyderabad, Telangana, India": null,
+ "Nakrekal, Hyderabad, Telangana, India": null,
+ "Kishanbagh, Hyderabad, Telangana, India": [
+  17.3608327,
+  78.4427483
+ ],
+ "Kodad - Rural, Hyderabad, Telangana, India": null,
+ "Kodad, Hyderabad, Telangana, India": null,
+ "Kodad - Town, Hyderabad, Telangana, India": null,
+ "Koheer, Hyderabad, Telangana, India": null,
+ "Zaheerabad Town, Hyderabad, Telangana, India": null,
+ "Kompally, Hyderabad, Telangana, India": [
+  17.5354868,
+  78.5096979
+ ],
+ "Konda Mallepally, Hyderabad, Telangana, India": null,
+ "Devarakonda, Hyderabad, Telangana, India": [
+  17.4247716,
+  78.4440062
+ ],
+ "Kondapur, Hyderabad, Telangana, India": [
+  17.4587912,
+  78.3730556
+ ],
+ "Kothakota, Hyderabad, Telangana, India": null,
+ "Kukatpally, Hyderabad, Telangana, India": [
+  17.4930841,
+  78.4054408
+ ],
+ "Kushaiguda, Hyderabad, Telangana, India": [
+  17.4825451,
+  78.5726444
+ ],
+ "L.B.Nagar, Hyderabad, Telangana, India": [
+  17.3498071,
+  78.5478875
+ ],
+ "M.I.G., Hyderabad, Telangana, India": [
+  17.4874175,
+  78.3913986
+ ],
+ "Madhapur, Hyderabad, Telangana, India": [
+  17.4408924,
+  78.3916304
+ ],
+ "Madugulapally, Hyderabad, Telangana, India": null,
+ "Vemulapally, Hyderabad, Telangana, India": null,
+ "Maheshwaram, Hyderabad, Telangana, India": [
+  17.3158544,
+  78.4828417
+ ],
+ "Mallapur, Hyderabad, Telangana, India": [
+  17.4405369,
+  78.5788551
+ ],
+ "Mannapur, Hyderabad, Telangana, India": null,
+ "Marredpally, Hyderabad, Telangana, India": [
+  17.4507936,
+  78.5048972
+ ],
+ "Md Pally, Hyderabad, Telangana, India": null,
+ "Medchal Rural, Hyderabad, Telangana, India": null,
+ "Medchal, Hyderabad, Telangana, India": [
+  17.3630295,
+  78.5768953
+ ],
+ "Miyapur, Hyderabad, Telangana, India": [
+  17.4981608,
+  78.3567628
+ ],
+ "Moghal Pura, Hyderabad, Telangana, India": null,
+ "Charminar, Hyderabad, Telangana, India": [
+  17.3616024,
+  78.4746421
+ ],
+ "Moulaali, Hyderabad, Telangana, India": null,
+ "Munagala, Hyderabad, Telangana, India": null,
+ "Munipally, Hyderabad, Telangana, India": null,
+ "Sadasivpet, Hyderabad, Telangana, India": null,
+ "Nacharam, Hyderabad, Telangana, India": [
+  17.4284936,
+  78.5528098
+ ],
+ "Nagaram, Hyderabad, Telangana, India": [
+  17.4910113,
+  78.613677
+ ],
+ "Nalgonda Town Iii, Hyderabad, Telangana, India": null,
+ "Nalgonda, Hyderabad, Telangana, India": [
+  17.375844,
+  78.4985684
+ ],
+ "Nallagandla, Hyderabad, Telangana, India": [
+  17.4774828,
+  78.3060359
+ ],
+ "Narayankhed, Hyderabad, Telangana, India": null,
+ "Narketpally, Hyderabad, Telangana, India": null,
+ "New Bowenpally, Hyderabad, Telangana, India": [
+  17.462942,
+  78.4712356
+ ],
+ "Nizampet, Hyderabad, Telangana, India": [
+  17.498552,
+  78.3796744
+ ],
+ "Pahadishariff, Hyderabad, Telangana, India": null,
+ "Paradise, Hyderabad, Telangana, India": [
+  17.4418278,
+  78.4875311
+ ],
+ "Pedda Amberpet, Hyderabad, Telangana, India": [
+  17.3172848,
+  78.6384505
+ ],
+ "Pregnapur, Hyderabad, Telangana, India": null,
+ "Gajwel, Hyderabad, Telangana, India": [
+  17.3560375,
+  78.4632898
+ ],
+ "Putli Bowli, Hyderabad, Telangana, India": null,
+ "Troop Bazar, Hyderabad, Telangana, India": [
+  17.3849929,
+  78.4785324
+ ],
+ "Quthbullapur, Hyderabad, Telangana, India": [
+  17.4966655,
+  78.4606445
+ ],
+ "R.P. Nilayam, Hyderabad, Telangana, India": null,
+ "Lalbazar, Hyderabad, Telangana, India": null,
+ "Rajapur, Hyderabad, Telangana, India": null,
+ "Rajendernagar, Hyderabad, Telangana, India": [
+  17.3592197,
+  78.4440413
+ ],
+ "Ramakrishnapuram, Hyderabad, Telangana, India": [
+  17.4749782,
+  78.5376874
+ ],
+ "Ranga Reddy Nagar, Hyderabad, Telangana, India": [
+  17.4381285,
+  78.3871787
+ ],
+ "Sadasivpet Rural, Hyderabad, Telangana, India": null,
+ "Sainikpuri, Hyderabad, Telangana, India": [
+  17.4892154,
+  78.5424889
+ ],
+ "Sanathnagar, Hyderabad, Telangana, India": [
+  17.4569654,
+  78.4434781
+ ],
+ "Sangareddy Town-I, Hyderabad, Telangana, India": null,
+ "Sangareddy, Hyderabad, Telangana, India": [
+  17.5277951,
+  78.267446
+ ],
+ "Santoshnagar, Hyderabad, Telangana, India": [
+  17.3467185,
+  78.5081947
+ ],
+ "Saroornagar, Hyderabad, Telangana, India": [
+  17.3611655,
+  78.5387443
+ ],
+ "Shameerpet, Hyderabad, Telangana, India": null,
+ "Shamshabad, Hyderabad, Telangana, India": [
+  17.257207,
+  78.3451039
+ ],
+ "Shankarmutt, Hyderabad, Telangana, India": null,
+ "Barkatpura, Hyderabad, Telangana, India": [
+  17.3926121,
+  78.4969683
+ ],
+ "Shapurnagar, Hyderabad, Telangana, India": null,
+ "Shastripuram, Hyderabad, Telangana, India": [
+  17.3327514,
+  78.4502307
+ ],
+ "Siddipet Town-Ii, Hyderabad, Telangana, India": null,
+ "Siddipet Town, Hyderabad, Telangana, India": null,
+ "Siddipet Urban, Hyderabad, Telangana, India": null,
+ "Siddipet Rural, Hyderabad, Telangana, India": null,
+ "Somajiguda, Hyderabad, Telangana, India": [
+  17.4255053,
+  78.4585197
+ ],
+ "Sri Krishna Nagar, Hyderabad, Telangana, India": [
+  17.5105245,
+  78.4571841
+ ],
+ "Suryanagar, Hyderabad, Telangana, India": [
+  17.5158639,
+  78.506077
+ ],
+ "Suryapet Rural, Hyderabad, Telangana, India": null,
+ "Suryapet, Hyderabad, Telangana, India": null,
+ "Suryapet Town-I, Hyderabad, Telangana, India": null,
+ "Suryapet Town-Ii, Hyderabad, Telangana, India": null,
+ "Taranagar, Hyderabad, Telangana, India": [
+  17.4926497,
+  78.3184691
+ ],
+ "Tarnaka, Hyderabad, Telangana, India": [
+  17.4285479,
+  78.5379433
+ ],
+ "Thipparthy, Hyderabad, Telangana, India": null,
+ "Toopran, Hyderabad, Telangana, India": null,
+ "Town -Iii, Hyderabad, Telangana, India": null,
+ "Mbnr-Town, Hyderabad, Telangana, India": null,
+ "Turkayamzal, Hyderabad, Telangana, India": null,
+ "Turkayamjal, Hyderabad, Telangana, India": null,
+ "Undavelly, Hyderabad, Telangana, India": null,
+ "Uppal, Hyderabad, Telangana, India": [
+  17.4025091,
+  78.5612562
+ ],
+ "Uppal Bagayath, Hyderabad, Telangana, India": null,
+ "Vanasthalipuram, Hyderabad, Telangana, India": [
+  17.3303179,
+  78.568278
+ ],
+ "Vangoor, Hyderabad, Telangana, India": null,
+ "Kalwakurthy, Hyderabad, Telangana, India": [
+  17.34401,
+  78.527787
+ ],
+ "Vasanth Nagar, Hyderabad, Telangana, India": [
+  17.4938648,
+  78.3862078
+ ],
+ "Vemana Colony, Hyderabad, Telangana, India": [
+  17.4871275,
+  78.3236067
+ ],
+ "Wargal, Hyderabad, Telangana, India": null,
+ "Mulugu, Hyderabad, Telangana, India": null,
+ "White Field, Hyderabad, Telangana, India": null,
+ "Yapral, Hyderabad, Telangana, India": [
+  17.5030543,
+  78.5407976
+ ],
+ "Yousufguda, Hyderabad, Telangana, India": [
+  17.4387499,
+  78.4279866
+ ],
+ "Zaheerabad Rural, Hyderabad, Telangana, India": null
+}

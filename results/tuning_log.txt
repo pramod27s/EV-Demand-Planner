@@ -1,0 +1,10 @@
+Tuning ['sma', 'pso', 'ga', 'random'] x seeds [1, 2, 3, 4, 5] | pop=15 iter=20 sample=40000
+  SMA     seed 1: val RMSE=4.8888 test RMSE=5.3094 R2=0.4167 (293 trainings, 848s)
+  SMA     seed 2: val RMSE=4.8944 test RMSE=5.3025 R2=0.4182 (290 trainings, 922s)
+  SMA     seed 3: val RMSE=4.8828 test RMSE=5.3016 R2=0.4184 (285 trainings, 1489s)
+  SMA     seed 4: val RMSE=4.8863 test RMSE=5.3032 R2=0.4180 (287 trainings, 777s)
+  SMA     seed 5: val RMSE=4.8872 test RMSE=5.3093 R2=0.4167 (287 trainings, 857s)
+  PSO     seed 1: val RMSE=4.8854 test RMSE=5.3178 R2=0.4148 (300 trainings, 1373s)
+  PSO     seed 2: val RMSE=4.8928 test RMSE=5.3055 R2=0.4175 (300 trainings, 1538s)
+  PSO     seed 3: val RMSE=4.8766 test RMSE=5.3067 R2=0.4173 (300 trainings, 1524s)
+  PSO     seed 4: val RMSE=4.8873 test RMSE=5.3116 R2=0.4162 (300 trainings, 1425s)

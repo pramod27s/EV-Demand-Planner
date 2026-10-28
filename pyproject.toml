@@ -1,0 +1,11 @@
+[project]
+name = "sma-ev-demand"
+version = "1.0.0"
+description = "Slime Mould Algorithm-optimised XGBoost for EV charging energy demand prediction"
+requires-python = ">=3.11,<3.12"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-p no:cacheprovider"
+filterwarnings = ["ignore::DeprecationWarning"]

@@ -1,0 +1,82 @@
+# All tunable values for the project live here (no magic numbers in code).
+seed: 42
+
+paths:
+  processed_dir: data/processed
+  results_dir: results
+  sample_dir: data/sample        # other-city sample files (scripts/fetch_city_samples.py)
+
+data:
+  raw_path: data/raw/EVChargingStationUsage.csv
+  start_date: "2012-01-01"
+  end_date: "2019-12-31"
+  outlier_quantile: 0.995
+  split: {train: 0.70, val: 0.15, test: 0.15}
+  rare_category_min: 50
+  date_format: "%m/%d/%Y %H:%M"   # official file, e.g. "7/29/2011 20:17"; null -> auto / "mixed"
+
+columns:            # map mirror-specific names here
+  start: "Start Date"
+  energy: "Energy (kWh)"
+  station: "Station Name"
+  port_type: "Port Type"
+  plug_type: "Plug Type"
+  port_number: "Port Number"
+  lat: "Latitude"
+  lon: "Longitude"
+  user: "User ID"
+  driver_zip: "Driver Postal Code"
+  # Known only after the session ends, or derived from energy -> always dropped.
+  # Matched case-insensitively by prefix, so "Total Duration (hh:mm:ss)" matches "Total Duration".
+  leakage: ["End Date", "End Time Zone", "Total Duration", "Charging Time", "GHG Savings",
+            "Gasoline Savings", "Fee", "Ended By", "Transaction Date"]
+  identifiers: ["MAC Address", "Org Name", "System S/N", "Model Number", "Plug In Event Id",
+                "Currency", "Country", "State/Province", "City", "County", "Address 1",
+                "EVSE ID", "Start Time Zone"]
+
+tuning:
+  tuning_sample_size: 40000
+  pop_size: 15
+  max_iter: 20
+  seeds: [1, 2, 3, 4, 5]
+  early_stopping_rounds: 50
+  optimizers: [sma, pso, ga, random]
+
+quick:              # used by `run_tuning --quick` (smoke test)
+  tuning_sample_size: 10000
+  pop_size: 6
+  max_iter: 5
+  seeds: [1]
+
+optimizers:
+  sma: {z: 0.03}
+  pso: {w_start: 0.9, w_end: 0.4, c1: 2.0, c2: 2.0, v_max: 0.2, v_init: 0.1}
+  ga:  {tournament: 3, p_cx: 0.9, eta_c: 15, eta_m: 20, elites: 2}
+
+baselines:
+  random_forest: {n_estimators: 200}
+
+benchmarks:
+  dim: 10
+  pop_size: 30
+  max_iter: 200
+  seeds: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+  functions: [sphere, rastrigin, ackley, rosenbrock, griewank]
+
+figures:
+  dpi: 150
+  colors:
+    sma: "#16a34a"
+    pso: "#ea580c"
+    ga: "#7c3aed"
+    random: "#6b7280"
+    default: "#2563eb"
+    lr: "#0891b2"
+    rf: "#a16207"
+
+placement:          # SMA solving the charger-placement (weighted p-median) problem in the web app
+  pop_size: 30
+  max_iter: 100
+  seed: 42
+  max_sites: 10
+  max_locations: 1000          # highest-demand locations used by the placement search

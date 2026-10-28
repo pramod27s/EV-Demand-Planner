@@ -1,0 +1,4 @@
+comparison,metric,n_pairs,sma_mean,other_mean,sma_wins,statistic,p_value,note
+SMA vs PSO,test_rmse,5,5.305205846044435,5.310118652139286,4,1.0,0.125,low power (few seeds)
+SMA vs GA,test_rmse,5,5.305205846044435,5.309978437074999,4,1.0,0.125,low power (few seeds)
+SMA vs Random,test_rmse,5,5.305205846044435,5.312512914134919,5,0.0,0.0625,low power (few seeds)

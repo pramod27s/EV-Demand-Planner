@@ -1,0 +1,87 @@
+{
+  "steps": [
+    {
+      "step": "raw CSV",
+      "rows": 259415
+    },
+    {
+      "step": "parse start date",
+      "rows": 259415
+    },
+    {
+      "step": "filter 2012-2019",
+      "rows": 238043
+    },
+    {
+      "step": "clean target + outliers",
+      "rows": 236852
+    },
+    {
+      "step": "drop leakage/identifier columns",
+      "rows": 236852
+    },
+    {
+      "step": "fill missing values",
+      "rows": 236852
+    },
+    {
+      "step": "feature engineering",
+      "rows": 236852
+    }
+  ],
+  "splits": {
+    "train": {
+      "rows": 165796,
+      "start": "2012-01-01 13:24:00",
+      "end": "2018-06-12 18:12:00"
+    },
+    "val": {
+      "rows": 35528,
+      "start": "2018-06-12 18:13:00",
+      "end": "2019-04-03 12:05:00"
+    },
+    "test": {
+      "rows": 35528,
+      "start": "2019-04-03 12:14:00",
+      "end": "2019-12-31 21:33:00"
+    }
+  },
+  "target_stats": {
+    "count": 236852.0,
+    "mean": 8.208610139927043,
+    "std": 6.138573358352044,
+    "min": 0.01,
+    "25%": 3.769,
+    "50%": 6.845,
+    "75%": 11.28576975,
+    "max": 45.956
+  },
+  "outlier_threshold_kwh": 45.971800000000165,
+  "dropped_columns": [
+    "MAC Address",
+    "Org Name",
+    "Start Time Zone",
+    "End Date",
+    "End Time Zone",
+    "Transaction Date (Pacific Time)",
+    "Total Duration (hh:mm:ss)",
+    "Charging Time (hh:mm:ss)",
+    "GHG Savings (kg)",
+    "Gasoline Savings (gallons)",
+    "EVSE ID",
+    "Address 1",
+    "City",
+    "State/Province",
+    "Country",
+    "Currency",
+    "Fee",
+    "Ended By",
+    "Plug In Event Id",
+    "County",
+    "System S/N",
+    "Model Number"
+  ],
+  "n_sessions": 236852,
+  "n_stations": 33,
+  "quick": false
+}

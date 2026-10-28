@@ -136,7 +136,26 @@ HTTP 503 with instructions.
 
 ## Results
 <!-- RESULTS:START -->
-*The full tuning run is in progress; this section is filled in from `results/summary.md` when it completes.*
+Test set (35,528 sessions, Apr–Dec 2019). Tuned rows are each optimiser's best seed, chosen on
+validation RMSE; the mean ± std is over 5 seeds with a budget of 15 × 20 = 300 evaluations each.
+
+| Model | Test RMSE (kWh) | MAE | R² | RMSE change vs default XGB | RMSE mean ± std (5 seeds) |
+|---|---|---|---|---|---|
+| Linear Regression | 5.352 | 3.558 | 0.407 | −1.6% | — |
+| Random Forest | 5.400 | 3.625 | 0.397 | −0.8% | — |
+| XGBoost (default) | 5.441 | 3.614 | 0.387 | — | — |
+| XGBoost + Random Search | 5.305 | 3.505 | 0.418 | −2.5% | 5.313 ± 0.007 |
+| XGBoost + GA | 5.311 | 3.516 | 0.416 | −2.4% | 5.310 ± 0.003 |
+| XGBoost + PSO | 5.307 | 3.506 | 0.417 | −2.5% | 5.310 ± 0.005 |
+| **XGBoost + SMA** | **5.302** | **3.505** | **0.418** | **−2.6%** | **5.305 ± 0.004** |
+
+* SMA has the lowest best-seed and mean test RMSE, and won 4 of 5 paired seeds against PSO and GA and
+  5 of 5 against Random Search.
+* The Wilcoxon signed-rank tests (SMA vs PSO p = 0.125, vs GA p = 0.125, vs Random p = 0.0625) are **not
+  significant at 0.05**. With 5 seeds the smallest possible two-sided p-value is 0.0625, so the gaps
+  (≈ 0.005 kWh) are within seed-to-seed noise.
+* On the D = 10 benchmark functions, SMA is weaker than PSO and GA (for example Rastrigin 12.0 vs 7.9 vs 0.47),
+  for the reason given under *Known limitations*.
 <!-- RESULTS:END -->
 
 Key figures:
@@ -149,9 +168,13 @@ All tables (dataset, baselines, final comparison, tuning summary, best hyperpara
 benchmarks) and the full figure list are in [`results/summary.md`](results/summary.md).
 
 ## Web app
-| Workspace | Location details | Model Lab |
-|---|---|---|
-| ![](docs/screenshots/home.png) | ![](docs/screenshots/stations.png) | ![](docs/screenshots/optimization.png) |
+| Workspace | Location details |
+|---|---|
+| ![](docs/screenshots/home.png) | ![](docs/screenshots/stations.png) |
+
+| Model Lab: performance | Model Lab: optimisation replay |
+|---|---|
+| ![](docs/screenshots/performance.png) | ![](docs/screenshots/optimization.png) |
 
 The app is one unified platform with two parts. The user-facing pages show no model internals; everything
 technical lives in a separate **Model Lab**.

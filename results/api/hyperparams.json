@@ -1,0 +1,70 @@
+{
+  "random": {
+    "label": "Random",
+    "seed": 3,
+    "best_val_rmse": 4.878514407167172,
+    "best_iteration": 429,
+    "params": {
+      "n_estimators": 826,
+      "max_depth": 4,
+      "learning_rate": 0.03914,
+      "subsample": 0.8068,
+      "colsample_bytree": 0.5144,
+      "min_child_weight": 8.521,
+      "gamma": 2.081,
+      "reg_lambda": 0.009645,
+      "reg_alpha": 0.00776
+    }
+  },
+  "ga": {
+    "label": "GA",
+    "seed": 3,
+    "best_val_rmse": 4.872249827832221,
+    "best_iteration": 251,
+    "params": {
+      "n_estimators": 754,
+      "max_depth": 3,
+      "learning_rate": 0.1108,
+      "subsample": 0.6871,
+      "colsample_bytree": 0.5068,
+      "min_child_weight": 5.45,
+      "gamma": 4.38,
+      "reg_lambda": 0.00692,
+      "reg_alpha": 0.3029
+    }
+  },
+  "pso": {
+    "label": "PSO",
+    "seed": 3,
+    "best_val_rmse": 4.876625253100506,
+    "best_iteration": 878,
+    "params": {
+      "n_estimators": 879,
+      "max_depth": 4,
+      "learning_rate": 0.01788,
+      "subsample": 0.784,
+      "colsample_bytree": 0.5,
+      "min_child_weight": 8.414,
+      "gamma": 1.845,
+      "reg_lambda": 0.02076,
+      "reg_alpha": 0.2104
+    }
+  },
+  "sma": {
+    "label": "SMA",
+    "seed": 3,
+    "best_val_rmse": 4.8827547996347755,
+    "best_iteration": 706,
+    "params": {
+      "n_estimators": 711,
+      "max_depth": 4,
+      "learning_rate": 0.02217,
+      "subsample": 0.5,
+      "colsample_bytree": 0.5,
+      "min_child_weight": 7.383,
+      "gamma": 0.0,
+      "reg_lambda": 0.001,
+      "reg_alpha": 0.001
+    }
+  }
+}

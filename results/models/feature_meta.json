@@ -1,0 +1,100 @@
+{
+  "features": [
+    "hour",
+    "hour_sin",
+    "hour_cos",
+    "dayofweek",
+    "is_weekend",
+    "month",
+    "month_sin",
+    "month_cos",
+    "year",
+    "port_number",
+    "lat",
+    "lon",
+    "driver_zip_known",
+    "user_prev_sessions",
+    "user_prev_mean_kwh",
+    "station_prev_mean_kwh",
+    "station",
+    "port_type",
+    "plug_type"
+  ],
+  "numeric": [
+    "hour",
+    "hour_sin",
+    "hour_cos",
+    "dayofweek",
+    "is_weekend",
+    "month",
+    "month_sin",
+    "month_cos",
+    "year",
+    "port_number",
+    "lat",
+    "lon",
+    "driver_zip_known",
+    "user_prev_sessions",
+    "user_prev_mean_kwh",
+    "station_prev_mean_kwh"
+  ],
+  "categorical": [
+    "station",
+    "port_type",
+    "plug_type"
+  ],
+  "categories": {
+    "station": [
+      "PALO ALTO CA / BRYANT #1",
+      "PALO ALTO CA / BRYANT #2",
+      "PALO ALTO CA / BRYANT #3",
+      "PALO ALTO CA / BRYANT #4",
+      "PALO ALTO CA / BRYANT #5",
+      "PALO ALTO CA / BRYANT #6",
+      "PALO ALTO CA / CAMBRIDGE #1",
+      "PALO ALTO CA / CAMBRIDGE #2",
+      "PALO ALTO CA / CAMBRIDGE #3",
+      "PALO ALTO CA / CAMBRIDGE #4",
+      "PALO ALTO CA / CAMBRIDGE #5",
+      "PALO ALTO CA / HAMILTON #1",
+      "PALO ALTO CA / HAMILTON #2",
+      "PALO ALTO CA / HIGH #1",
+      "PALO ALTO CA / HIGH #2",
+      "PALO ALTO CA / HIGH #3",
+      "PALO ALTO CA / HIGH #4",
+      "PALO ALTO CA / MPL #1",
+      "PALO ALTO CA / MPL #2",
+      "PALO ALTO CA / MPL #3",
+      "PALO ALTO CA / MPL #4",
+      "PALO ALTO CA / MPL #5",
+      "PALO ALTO CA / MPL #6",
+      "PALO ALTO CA / RINCONADA LIB 1",
+      "PALO ALTO CA / RINCONADA LIB 2",
+      "PALO ALTO CA / RINCONADA LIB 3",
+      "PALO ALTO CA / TED THOMPSON #1",
+      "PALO ALTO CA / TED THOMPSON #2",
+      "PALO ALTO CA / TED THOMPSON #3",
+      "PALO ALTO CA / TED THOMPSON #4",
+      "PALO ALTO CA / WEBSTER #1",
+      "PALO ALTO CA / WEBSTER #2",
+      "PALO ALTO CA / WEBSTER #3",
+      "other"
+    ],
+    "port_type": [
+      "Level 1",
+      "Level 2",
+      "other"
+    ],
+    "plug_type": [
+      "J1772",
+      "NEMA 5-20R",
+      "other"
+    ]
+  },
+  "rare_mapping": {
+    "min_count": 50,
+    "other_label": "other"
+  },
+  "global_train_mean_kwh": 8.025135135117855,
+  "target": "energy_kwh"
+}

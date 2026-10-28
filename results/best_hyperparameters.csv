@@ -1,0 +1,5 @@
+optimizer,seed,n_estimators,max_depth,learning_rate,subsample,colsample_bytree,min_child_weight,gamma,reg_lambda,reg_alpha,best_iteration
+Random,3,826,4,0.03914,0.8068,0.5144,8.521,2.081,0.009645,0.00776,429
+GA,3,754,3,0.1108,0.6871,0.5068,5.45,4.38,0.00692,0.3029,251
+PSO,3,879,4,0.01788,0.784,0.5,8.414,1.845,0.02076,0.2104,878
+SMA,3,711,4,0.02217,0.5,0.5,7.383,0.0,0.001,0.001,706

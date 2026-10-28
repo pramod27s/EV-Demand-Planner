@@ -1,0 +1,62 @@
+[
+  {
+    "feature": "user_prev_mean_kwh",
+    "gain": 12750.306640625
+  },
+  {
+    "feature": "plug_type",
+    "gain": 4598.6298828125
+  },
+  {
+    "feature": "port_type",
+    "gain": 2125.078125
+  },
+  {
+    "feature": "hour_cos",
+    "gain": 1117.7457275390625
+  },
+  {
+    "feature": "user_prev_sessions",
+    "gain": 1064.7037353515625
+  },
+  {
+    "feature": "hour",
+    "gain": 845.544189453125
+  },
+  {
+    "feature": "station",
+    "gain": 708.7993774414062
+  },
+  {
+    "feature": "lon",
+    "gain": 652.9282836914062
+  },
+  {
+    "feature": "station_prev_mean_kwh",
+    "gain": 634.2145385742188
+  },
+  {
+    "feature": "hour_sin",
+    "gain": 542.5140991210938
+  },
+  {
+    "feature": "lat",
+    "gain": 467.88946533203125
+  },
+  {
+    "feature": "is_weekend",
+    "gain": 456.4468078613281
+  },
+  {
+    "feature": "year",
+    "gain": 374.841552734375
+  },
+  {
+    "feature": "driver_zip_known",
+    "gain": 355.3842468261719
+  },
+  {
+    "feature": "dayofweek",
+    "gain": 342.7779846191406
+  }
+]

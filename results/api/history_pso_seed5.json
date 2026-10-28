@@ -1,0 +1,327 @@
+{
+  "optimizer": "pso",
+  "label": "PSO",
+  "seed": 5,
+  "history": [
+    {
+      "iteration": 1,
+      "best_fitness": 4.890094257402242,
+      "mean_fitness": 4.961313541186494,
+      "best_params": {
+        "n_estimators": 709,
+        "max_depth": 4,
+        "learning_rate": 0.06617,
+        "subsample": 0.6357,
+        "colsample_bytree": 0.9398,
+        "min_child_weight": 1.578,
+        "gamma": 3.396,
+        "reg_lambda": 3.022,
+        "reg_alpha": 0.008115
+      }
+    },
+    {
+      "iteration": 2,
+      "best_fitness": 4.888038126269767,
+      "mean_fitness": 4.932658116119607,
+      "best_params": {
+        "n_estimators": 682,
+        "max_depth": 4,
+        "learning_rate": 0.03278,
+        "subsample": 0.7717,
+        "colsample_bytree": 0.8243,
+        "min_child_weight": 6.39,
+        "gamma": 1.877,
+        "reg_lambda": 0.12,
+        "reg_alpha": 0.2509
+      }
+    },
+    {
+      "iteration": 3,
+      "best_fitness": 4.883936086222925,
+      "mean_fitness": 4.905987111361997,
+      "best_params": {
+        "n_estimators": 807,
+        "max_depth": 3,
+        "learning_rate": 0.04417,
+        "subsample": 0.8137,
+        "colsample_bytree": 0.8686,
+        "min_child_weight": 4.783,
+        "gamma": 1.718,
+        "reg_lambda": 0.3347,
+        "reg_alpha": 0.07959
+      }
+    },
+    {
+      "iteration": 4,
+      "best_fitness": 4.883936086222925,
+      "mean_fitness": 4.892295902978236,
+      "best_params": {
+        "n_estimators": 807,
+        "max_depth": 3,
+        "learning_rate": 0.04417,
+        "subsample": 0.8137,
+        "colsample_bytree": 0.8686,
+        "min_child_weight": 4.783,
+        "gamma": 1.718,
+        "reg_lambda": 0.3347,
+        "reg_alpha": 0.07959
+      }
+    },
+    {
+      "iteration": 5,
+      "best_fitness": 4.883346035021041,
+      "mean_fitness": 4.8881260103862685,
+      "best_params": {
+        "n_estimators": 860,
+        "max_depth": 3,
+        "learning_rate": 0.03396,
+        "subsample": 0.8946,
+        "colsample_bytree": 0.8897,
+        "min_child_weight": 4.345,
+        "gamma": 1.813,
+        "reg_lambda": 1.614,
+        "reg_alpha": 0.2301
+      }
+    },
+    {
+      "iteration": 6,
+      "best_fitness": 4.883346035021041,
+      "mean_fitness": 4.888040646003755,
+      "best_params": {
+        "n_estimators": 860,
+        "max_depth": 3,
+        "learning_rate": 0.03396,
+        "subsample": 0.8946,
+        "colsample_bytree": 0.8897,
+        "min_child_weight": 4.345,
+        "gamma": 1.813,
+        "reg_lambda": 1.614,
+        "reg_alpha": 0.2301
+      }
+    },
+    {
+      "iteration": 7,
+      "best_fitness": 4.883346035021041,
+      "mean_fitness": 4.889204336032113,
+      "best_params": {
+        "n_estimators": 860,
+        "max_depth": 3,
+        "learning_rate": 0.03396,
+        "subsample": 0.8946,
+        "colsample_bytree": 0.8897,
+        "min_child_weight": 4.345,
+        "gamma": 1.813,
+        "reg_lambda": 1.614,
+        "reg_alpha": 0.2301
+      }
+    },
+    {
+      "iteration": 8,
+      "best_fitness": 4.883346035021041,
+      "mean_fitness": 4.888128168945873,
+      "best_params": {
+        "n_estimators": 860,
+        "max_depth": 3,
+        "learning_rate": 0.03396,
+        "subsample": 0.8946,
+        "colsample_bytree": 0.8897,
+        "min_child_weight": 4.345,
+        "gamma": 1.813,
+        "reg_lambda": 1.614,
+        "reg_alpha": 0.2301
+      }
+    },
+    {
+      "iteration": 9,
+      "best_fitness": 4.883346035021041,
+      "mean_fitness": 4.889172624466912,
+      "best_params": {
+        "n_estimators": 860,
+        "max_depth": 3,
+        "learning_rate": 0.03396,
+        "subsample": 0.8946,
+        "colsample_bytree": 0.8897,
+        "min_child_weight": 4.345,
+        "gamma": 1.813,
+        "reg_lambda": 1.614,
+        "reg_alpha": 0.2301
+      }
+    },
+    {
+      "iteration": 10,
+      "best_fitness": 4.883346035021041,
+      "mean_fitness": 4.887771174446419,
+      "best_params": {
+        "n_estimators": 860,
+        "max_depth": 3,
+        "learning_rate": 0.03396,
+        "subsample": 0.8946,
+        "colsample_bytree": 0.8897,
+        "min_child_weight": 4.345,
+        "gamma": 1.813,
+        "reg_lambda": 1.614,
+        "reg_alpha": 0.2301
+      }
+    },
+    {
+      "iteration": 11,
+      "best_fitness": 4.883346035021041,
+      "mean_fitness": 4.887615145371165,
+      "best_params": {
+        "n_estimators": 860,
+        "max_depth": 3,
+        "learning_rate": 0.03396,
+        "subsample": 0.8946,
+        "colsample_bytree": 0.8897,
+        "min_child_weight": 4.345,
+        "gamma": 1.813,
+        "reg_lambda": 1.614,
+        "reg_alpha": 0.2301
+      }
+    },
+    {
+      "iteration": 12,
+      "best_fitness": 4.883346035021041,
+      "mean_fitness": 4.887571320702902,
+      "best_params": {
+        "n_estimators": 860,
+        "max_depth": 3,
+        "learning_rate": 0.03396,
+        "subsample": 0.8946,
+        "colsample_bytree": 0.8897,
+        "min_child_weight": 4.345,
+        "gamma": 1.813,
+        "reg_lambda": 1.614,
+        "reg_alpha": 0.2301
+      }
+    },
+    {
+      "iteration": 13,
+      "best_fitness": 4.881779486566338,
+      "mean_fitness": 4.887922423283803,
+      "best_params": {
+        "n_estimators": 901,
+        "max_depth": 3,
+        "learning_rate": 0.03585,
+        "subsample": 0.9434,
+        "colsample_bytree": 0.904,
+        "min_child_weight": 4.719,
+        "gamma": 1.654,
+        "reg_lambda": 2.119,
+        "reg_alpha": 0.2286
+      }
+    },
+    {
+      "iteration": 14,
+      "best_fitness": 4.881779486566338,
+      "mean_fitness": 4.8870241033456665,
+      "best_params": {
+        "n_estimators": 901,
+        "max_depth": 3,
+        "learning_rate": 0.03585,
+        "subsample": 0.9434,
+        "colsample_bytree": 0.904,
+        "min_child_weight": 4.719,
+        "gamma": 1.654,
+        "reg_lambda": 2.119,
+        "reg_alpha": 0.2286
+      }
+    },
+    {
+      "iteration": 15,
+      "best_fitness": 4.881779486566338,
+      "mean_fitness": 4.887500003635271,
+      "best_params": {
+        "n_estimators": 901,
+        "max_depth": 3,
+        "learning_rate": 0.03585,
+        "subsample": 0.9434,
+        "colsample_bytree": 0.904,
+        "min_child_weight": 4.719,
+        "gamma": 1.654,
+        "reg_lambda": 2.119,
+        "reg_alpha": 0.2286
+      }
+    },
+    {
+      "iteration": 16,
+      "best_fitness": 4.881779486566338,
+      "mean_fitness": 4.88711713304492,
+      "best_params": {
+        "n_estimators": 901,
+        "max_depth": 3,
+        "learning_rate": 0.03585,
+        "subsample": 0.9434,
+        "colsample_bytree": 0.904,
+        "min_child_weight": 4.719,
+        "gamma": 1.654,
+        "reg_lambda": 2.119,
+        "reg_alpha": 0.2286
+      }
+    },
+    {
+      "iteration": 17,
+      "best_fitness": 4.880886838312737,
+      "mean_fitness": 4.886926419797001,
+      "best_params": {
+        "n_estimators": 865,
+        "max_depth": 3,
+        "learning_rate": 0.03078,
+        "subsample": 0.905,
+        "colsample_bytree": 0.8976,
+        "min_child_weight": 3.842,
+        "gamma": 1.771,
+        "reg_lambda": 2.127,
+        "reg_alpha": 0.2415
+      }
+    },
+    {
+      "iteration": 18,
+      "best_fitness": 4.880886838312737,
+      "mean_fitness": 4.886546191764925,
+      "best_params": {
+        "n_estimators": 865,
+        "max_depth": 3,
+        "learning_rate": 0.03078,
+        "subsample": 0.905,
+        "colsample_bytree": 0.8976,
+        "min_child_weight": 3.842,
+        "gamma": 1.771,
+        "reg_lambda": 2.127,
+        "reg_alpha": 0.2415
+      }
+    },
+    {
+      "iteration": 19,
+      "best_fitness": 4.880886838312737,
+      "mean_fitness": 4.888510343208801,
+      "best_params": {
+        "n_estimators": 865,
+        "max_depth": 3,
+        "learning_rate": 0.03078,
+        "subsample": 0.905,
+        "colsample_bytree": 0.8976,
+        "min_child_weight": 3.842,
+        "gamma": 1.771,
+        "reg_lambda": 2.127,
+        "reg_alpha": 0.2415
+      }
+    },
+    {
+      "iteration": 20,
+      "best_fitness": 4.880886838312737,
+      "mean_fitness": 4.885976468215821,
+      "best_params": {
+        "n_estimators": 865,
+        "max_depth": 3,
+        "learning_rate": 0.03078,
+        "subsample": 0.905,
+        "colsample_bytree": 0.8976,
+        "min_child_weight": 3.842,
+        "gamma": 1.771,
+        "reg_lambda": 2.127,
+        "reg_alpha": 0.2415
+      }
+    }
+  ]
+}

@@ -237,9 +237,12 @@ EV Charging Station Placement/
   at 0. It is kept for faithfulness, and it explains SMA's weaker benchmark scores relative to PSO and GA.
 
 ## Team
-* Team member 1 — USN
-* Team member 2 — USN
-* Team member 3 — USN
+| Name | USN |
+|---|---|
+| Pramod M B | 1BM23CD045 |
+| Kashish Gaddigoudar | 1BM24CD401 |
+| Divan Singh | 1BM23CD017 |
+| Lakshaya Khandelwal | 1BM23CD031 |
 
 ## References
 1. S. Li, H. Chen, M. Wang, A. A. Heidari, S. Mirjalili, "Slime mould algorithm: A new method for stochastic optimization," *Future Generation Computer Systems*, 111, 300–323, 2020.

@@ -57,7 +57,14 @@ function SmaLoopDiagram() {
 }
 
 
-const PHASES: { icon: IconName; title: string; formula: string; text: string }[] = [
+const TEAM = [
+  { name: "Pramod M B", usn: "1BM23CD045" },
+  { name: "Kashish Gaddigoudar", usn: "1BM24CD401" },
+  { name: "Divan Singh", usn: "1BM23CD017" },
+  { name: "Lakshaya Khandelwal", usn: "1BM23CD031" },
+];
+
+const PHASES:{ icon: IconName; title: string; formula: string; text: string }[] = [
   { icon: "network", title: "Vein thickness", formula: "W = 1 ± r·log10((bF − S)/(bF − wF) + 1)",
     text: "Cells are ranked by fitness. The better half gets thicker veins (W > 1), the worse half thinner ones (W < 1)." },
   { icon: "target", title: "Approach food", formula: "X = Xb + vb·(W·X_A − X_B)",
@@ -127,11 +134,11 @@ export default function Method() {
 
       <Section title="Team" icon="sparkles">
         <p className="text-sm text-slate-600">Bio-Inspired Algorithms (23DS7BSBIO) AAT · B.E. CSE (Data Science), BMSCE Bengaluru</p>
-        <div className="mt-4 grid gap-3 sm:grid-cols-3">
-          {[1, 2, 3].map((i) => (
-            <div key={i} className="flex items-center gap-3 rounded border border-zinc-200 p-3">
-              <span className="flex h-9 w-9 items-center justify-center rounded-full bg-slate-200 text-sm font-semibold text-slate-600">{i}</span>
-              <div className="text-sm"><div className="font-medium text-slate-900">Team member {i}</div><div className="text-xs text-slate-500">USN</div></div>
+        <div className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+          {TEAM.map((m, i) => (
+            <div key={m.usn} className="flex items-center gap-3 rounded border border-zinc-200 p-3">
+              <span className="num flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-zinc-100 text-sm font-semibold text-zinc-600">{i + 1}</span>
+              <div className="text-sm"><div className="font-medium text-zinc-900">{m.name}</div><div className="num text-xs text-zinc-500">{m.usn}</div></div>
             </div>
           ))}
         </div>
